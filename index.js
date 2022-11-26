@@ -18,7 +18,7 @@ client.on('ready', async () => {
 })
 
 client.on('message', async (message) => {
-    const prefix = "/";
+    const prefix = "!";
 
     if (message.content.indexOf(prefix) !== 0) return;
 
